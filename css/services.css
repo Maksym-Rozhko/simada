@@ -1,0 +1,84 @@
+.services {
+    padding: 130px 0;
+}
+
+.services h2 {
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 73px;
+    text-transform: uppercase;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 70px;
+}
+
+.services__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.service {
+    max-width: 270px;
+}
+
+.service:nth-child(3),
+.service:nth-child(4),
+.service:last-child {
+    max-width: inherit;
+}
+
+.service img {
+    max-height: 270px;
+}
+
+.service h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #000;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #BEBEBE;
+}
+
+.service p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    color: #656363;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.services__group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    gap: 40px;
+}
+
+.services .btn {
+    max-width: 365px;
+    padding: 17px 0;
+}
+
+.services .btn-fill {
+    text-align: center;
+    display: block;
+}
+
+.services .btn-outline {
+    border: 1px solid #101010;
+    color: #101010;
+    background-color: transparent;
+}
+
+.services .btn-outline:hover {
+    background-color: #D0202A;
+    color: #fff;
+    border: 1px solid #D0202A;
+}

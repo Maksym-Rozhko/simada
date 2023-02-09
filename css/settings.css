@@ -1,0 +1,62 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 320px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    position: relative;
+    overflow-x: hidden;
+    background-color: #000;
+    background-color: #FFFAE6;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 100px;
+}
+
+.logo img {
+    max-width: 136px;
+}
+
+.btn {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 36px;
+    border: 1px solid transparent;
+    transition: all ease-in-out .4s;
+    padding: 12px;
+    width: 100%;
+    color: #fff;
+}
+
+.btn-fill {
+    background-color: #D0202A;
+}
+
+.btn-fill:hover {
+    background-color: #fff;
+    color: #D0202A;
+}

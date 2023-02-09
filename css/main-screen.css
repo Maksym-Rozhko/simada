@@ -1,0 +1,107 @@
+.main-screen {
+    padding-top: 183px;
+    padding-bottom: 115px;
+    background: url('../images/main-screen-bg.jpg') no-repeat center/cover;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.main-screen::after {
+    content: "";
+    position: absolute;
+    background-color: rgba(208, 32, 42, 0.4);
+    width: 50%;
+    height: 100%;
+    right: 0;
+    top: 83px;
+    z-index: -1;
+}
+
+.main-screen__container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.main-screen .left-block {
+    max-width: 600px;
+}
+
+.main-screen h1 {
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 73px;
+    text-transform: uppercase;
+    color: #FFFAE6;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.main-screen p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    max-width: 365px;
+    margin-top: 21px;
+    margin-bottom: 60px;
+}
+
+.main-screen .btn {
+    max-width: 365px;
+    padding: 17px 0;
+}
+
+.main-screen .btn-fill {
+    text-align: center;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.main-screen .btn-outline {
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+}
+
+.main-screen .btn-outline:hover {
+    background-color: #D0202A;
+    color: #fff;
+    border: 1px solid #D0202A;
+}
+
+.right-block .box {
+    border: 1px solid #FFFFFF;
+    padding: 25px;
+    min-height: 140px;
+    min-width: 365px;
+}
+
+.right-block .box:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.right-block .box span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.right-block .box a {
+    display: block;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transition: all ease-in-out .4s;
+    padding-bottom: 1px;
+    margin-top: 10px;
+    border-bottom: 2px solid transparent;
+}
+
+.right-block .box a:hover {
+    border-bottom: 2px solid #fff;
+}
