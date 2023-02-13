@@ -1,0 +1,47 @@
+.graph-modal__container {
+    background-color: #D0202A;
+    padding: 75px;
+}
+
+.graph-modal h2 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.graph-modal p {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.graph-modal__close {
+    filter: invert(1);
+}
+
+.graph-modal .form {
+    flex-direction: column;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.graph-modal .form .btn-fill {
+    max-width: inherit;
+}
+
+.graph-modal .form input {
+    text-transform: none;
+}
+
+.graph-modal .form input[type="time"]::-webkit-calendar-picker-indicator,
+.graph-modal .form input[type="date"]::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+}

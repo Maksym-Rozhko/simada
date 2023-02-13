@@ -33,6 +33,10 @@ a {
     padding: 0 100px;
 }
 
+.logo img {
+    max-width: 136px;
+}
+
 .btn {
     font-weight: 600;
     font-size: 12px;

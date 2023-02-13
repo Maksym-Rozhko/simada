@@ -99,7 +99,6 @@
     transition: all ease-in-out .4s;
     padding-bottom: 1px;
     margin-top: 10px;
-    max-width: fit-content;
     border-bottom: 2px solid transparent;
 }
 

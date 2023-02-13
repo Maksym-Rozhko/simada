@@ -49,11 +49,6 @@
     color: #656363;
 }
 
-.prices__list .item-labels b {
-    display: block;
-    margin-top: 10px;
-}
-
 .prices__group {
     display: flex;
     align-items: center;
