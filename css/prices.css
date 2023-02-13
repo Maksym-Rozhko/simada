@@ -1,0 +1,80 @@
+.prices {
+    padding: 130px 0;
+}
+
+.prices h2 {
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 73px;
+    text-transform: uppercase;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 70px;
+}
+
+.prices__list {
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px 40px;
+}
+
+.prices__list .item-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    margin-bottom: 7px;
+    border-bottom: 1px solid #BEBEBE;
+}
+
+.prices__list .item-name,
+.prices__list .item-price {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+
+.prices__list .item-labels {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #656363;
+}
+
+.prices__group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    gap: 40px;
+}
+
+.prices .btn {
+    max-width: 365px;
+    padding: 17px 0;
+}
+
+.prices .btn-fill {
+    text-align: center;
+    display: block;
+}
+
+.prices .btn-outline {
+    border: 1px solid #101010;
+    color: #101010;
+    background-color: transparent;
+}
+
+.prices .btn-outline:hover {
+    background-color: #D0202A;
+    color: #fff;
+    border: 1px solid #D0202A;
+}
