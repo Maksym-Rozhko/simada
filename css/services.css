@@ -19,17 +19,19 @@
 }
 
 .service {
-    max-width: 270px;
+    /* max-width: 270px; */
+    max-width: 370px;
 }
 
-.service:nth-child(3),
+/* .service:nth-child(3),
 .service:nth-child(4),
 .service:last-child {
     max-width: inherit;
-}
+} */
 
 .service img {
-    max-height: 270px;
+    max-height: 490px;
+    /* max-height: 270px; */
 }
 
 .service h3 {

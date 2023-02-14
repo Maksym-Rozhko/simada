@@ -1,7 +1,7 @@
 .main-screen {
     padding-top: 183px;
     padding-bottom: 115px;
-    background: url('../images/main-screen-bg.jpg') no-repeat center/cover;
+    background: url('../images/main-screen-bg.webp') no-repeat center/cover;
     position: relative;
     overflow: hidden;
     z-index: 1;
@@ -75,6 +75,7 @@
     padding: 25px;
     min-height: 140px;
     min-width: 365px;
+    max-width: 500px;
 }
 
 .right-block .box:not(:last-child) {

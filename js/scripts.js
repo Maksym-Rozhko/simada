@@ -51,15 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const modal = new GraphModal();
 
     const forms = document.querySelectorAll('.form');
-
-    const inputTime = document.querySelector('.graph-modal .form input[type="time"]');
     
-    const date = new Date();
-
-    const currentTime = [date.getHours(), date.getMinutes()].map(function (x) {
-        return x < 10 ? "0" + x : x;
-    }).join(":");       
-
     if (forms) {
         forms.forEach(form => {
             form.addEventListener('submit', (e) => {
@@ -73,6 +65,4 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         });
     }
-
-    inputTime.value = currentTime;
 });
